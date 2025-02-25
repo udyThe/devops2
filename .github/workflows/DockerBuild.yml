@@ -16,4 +16,4 @@ jobs:
         run: docker build -t <your-dockerhub-username>/my-fastapi-app:latest .
 
       - name: Push Docker Image
-        run: docker push <your-dockerhub-username>/my-fastapi-app:latest
+        run: docker push udaysurothiya/my-fastapi-app:latest
